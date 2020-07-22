@@ -13,12 +13,12 @@ The POC, illustrates training the datasets from MNIST containing handwritten dig
 
 2.	Load the MNIST datasets using **keras.datasets.mnist** as shown below.
 
-       # Load the Data
-       import tensorflow as tf
-       mnist = tf.keras.datasets.mnist
-       (x_train, y_train), (x_test, y_test) = mnist.load_data()
-       x_train, x_test = x_train / 255.0, x_test / 255.0
-       print("x_train.shape:", x_train.shape)
+       	# Load the Data
+        import tensorflow as tf
+        mnist = tf.keras.datasets.mnist
+        (x_train, y_train), (x_test, y_test) = mnist.load_data()
+        x_train, x_test = x_train / 255.0, x_test / 255.0
+        print("x_train.shape:", x_train.shape)
        
 	![Alt text](https://github.com/Protontech-1803/Machine_Learning/blob/master/TensorFlow/TensorFlow_PNG/LoadData.png)
  
