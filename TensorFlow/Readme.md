@@ -6,6 +6,9 @@ The POC, illustrates training the datasets from MNIST containing handwritten dig
 **Steps for Artificial Neural Network Model to train the dataset and to find the accuracy of the model using TensorFlow:**
 
 1.	Install TensorFlow in Google Colaboratory(colab) Notebook.
+
+	![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+	
 2.	Load the MNIST datasets using keras.datasets.mnist as shown below.
  
 3.	Build and compile the model using functional API’s as shown below.
