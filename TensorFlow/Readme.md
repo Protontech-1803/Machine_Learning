@@ -24,16 +24,16 @@ The POC, illustrates training the datasets from MNIST containing handwritten dig
  
 3.	Build and compile the model using functional API’s as shown below.
 
-       # Build the Model
-       model = tf.keras.models.Sequential([
-       tf.keras.layers.Flatten(input_shape=(28, 28)),
-       tf.keras.layers.Dense(128, activation='relu'),
-       tf.keras.layers.Dropout(0.2),
-       tf.keras.layers.Dense(10, activation='softmax')
-       ])
+        # Build the Model
+        model = tf.keras.models.Sequential([
+          tf.keras.layers.Flatten(input_shape=(28, 28)),
+          tf.keras.layers.Dense(128, activation='relu'),
+          tf.keras.layers.Dropout(0.2),
+          tf.keras.layers.Dense(10, activation='softmax')
+        ])
 
-       # Compile the Model
-       model.compile(optimizer='adam',
+        # Compile the Model
+        model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 	      
@@ -41,8 +41,8 @@ The POC, illustrates training the datasets from MNIST containing handwritten dig
  
 4.	Once the model is created and complied, train the model using **model.fit** as shown below.
 
-       # Train the model
-       r = model.fit(x_train, y_train, validation_data=(x_test, y_test), epochs=10)
+         # Train the model
+         r = model.fit(x_train, y_train, validation_data=(x_test, y_test), epochs=10)
        
 	![Alt text](https://github.com/Protontech-1803/Machine_Learning/blob/master/TensorFlow/TensorFlow_PNG/Train_Model.png)
  
@@ -50,10 +50,11 @@ The POC, illustrates training the datasets from MNIST containing handwritten dig
 	**Note:** Blue line - Training set data
 	Red line – Testing set data for the machine
 	
-       # Plot accuracy per iteration
-       plt.plot(r.history['accuracy'], label='acc')
-       plt.plot(r.history['val_accuracy'], label='val_acc')
-       plt.legend()
+         # Plot accuracy per iteration
+         import matplotlib.pyplot as plt
+         plt.plot(r.history['accuracy'], label='acc')
+         plt.plot(r.history['val_accuracy'], label='val_acc')
+         plt.legend()
        
 	![Alt text](https://github.com/Protontech-1803/Machine_Learning/blob/master/TensorFlow/TensorFlow_PNG/Accuracy_Graph.png)
 
