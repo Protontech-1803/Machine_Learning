@@ -2,7 +2,9 @@
 # Artificial Neural Network(ANN) Learning Model using TensorFlow
 
 
+
 The POC, illustrates training the datasets from MNIST containing handwritten digits and plotting the accuracy per iteration. The following are the steps to train the data sets and to find the accuracy of the leaning model.
+
 
 
 **Steps for Artificial Neural Network Model to train the dataset and to find the accuracy of the model using TensorFlow:**
