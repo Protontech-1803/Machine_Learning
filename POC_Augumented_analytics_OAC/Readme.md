@@ -6,6 +6,7 @@ Augmented analytics extracts Insights from Large Data Sources. It uses both ML a
 **The following steps shows how to perform Augmented Analytics in OAC.**
 
 **1. Sign in to the Oracle Analytics Cloud, and Create a Project.**
+
 **2.	Add a Data Set to the Project by Dropping a Data File such as an Excel Spreadsheet.**
 
 **3.	Select any of the elements of Data Set for example Category, right click on the element and click Explain Category**
