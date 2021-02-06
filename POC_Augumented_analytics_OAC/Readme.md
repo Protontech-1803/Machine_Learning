@@ -1,4 +1,4 @@
-# POC: Augmented Analytics in OAC
+# Augmented Analytics in OAC
 
 This POC illustrates how Augmented Analytics is performed in OAC. 
 Augmented analytics extracts Insights from Large Data Sources. It uses both ML and AI techniques, where Machine Learning handles the data preparation process like processing the ingested data, preparing the relevant data and looking for patterns, and AI handles the initial analysis using models and algorithms. 
